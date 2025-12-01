@@ -1,0 +1,15 @@
+name: alerts_navigator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - geopandas
+  - pandas
+  - shapely
+  - python-dateutil
+  - matplotlib
+  - numpy
+  - pip
+  - pip:
+    - git+https://github.com/openforis/earthengine-api.git@v1.6.14#egg=earthengine-api&subdirectory=python
